@@ -140,5 +140,26 @@
             display: inline;
             text-align: center;
         }
+.footer__brand__link__logo{
+    height: 40px;
+}
+.footer__menu__link{
+    font-size: .9em;
+}
+
+.footer__social--midia{
+    display: flex;
+    justify-content: center;
+}
+.footer__social--midia__link{
+    font-size: 1.5em;
+}
+.footer__description{
+    font-size: .6em;
+    margin-top: 16px;
+}
+.copy{
+    font-size: .7em;
+}
 }
 </style>
