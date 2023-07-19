@@ -44,8 +44,44 @@
                     </li>
                 </ul>
             </section>
-
         </div>
+
+        <!-- Aulas -->
+            <section id="Classes" class="classes">
+                <div class="container">
+                    <h2 class="classes__title">
+                    Aqui é real <span class="classes__title__emphasis">NO PAIN, NO GAIN</span>!
+                </h2>
+                <p class="classes__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur fuga atque animi architecto fugit mollitia, nisi dolorum, est error quidem nam placeat sint suscipit libero at sapiente debitis aspernatur.
+                </p>
+                </div>
+                <div class="classes__cards">
+                    <ul class="classes__cards__list">
+                        <li class="classes__cards__list__item">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <h3 class="classes__cards__list__item__title">Dança</h3>
+                            <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__dance.svg" alt="">
+                        </li>
+                        <li class="classes__cards__list__item">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <h3 class="classes__cards__list__item__title">Musculação</h3>
+                            <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__ gym.svg" alt="">
+                        </li>
+                        <li class="classes__cards__list__item">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <h3 class="classes__cards__list__item__title">Natação</h3>
+                            <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__ swimming.svg" alt="">
+                        </li>
+                        <li class="classes__cards__list__item">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <h3 class="classes__cards__list__item__title">Combate</h3>
+                            <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__combat.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        
     </main>
 </template>
 
@@ -59,13 +95,13 @@
     }
 .container{
     padding-top: 150px;
-    padding-bottom: 50px;
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
     color: #CCCCCC;
 }
 
+/* Localização */
 .direction{
     align-items: center;
     display: grid;
@@ -87,6 +123,7 @@
     box-shadow: 10px 10px 10px rgba(22, 242, 117, .2);
 }
 
+/* Experiencias */
 .experience{
     padding-top: 150px;
 }
@@ -127,6 +164,53 @@
 }
 
 
+/* Aulas */
+.classes__title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 2em;
+}
+.classes__title__emphasis{
+    font-weight: bold;
+    color: #13F261;
+}
+.classes__description{
+    text-align: justify;
+}
+.classes__cards{
+    margin: 32px auto 50px;
+    text-align: center;
+}
+.classes__cards__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.classes__cards__list__item{
+    background-color: #0DA643;
+    padding: 24px;
+    margin: 0 24px;
+    border-radius: 8px;
+    transition: .5s ease;
+}
+.classes__cards__list__item:hover{
+    scale: 1.03;
+    transition: .5s ease;
+}
+.classes__cards__list__item__image{
+    border-radius: 8px;
+}
+.classes__cards__list__item__title{
+    font-size: 1.17em;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+.classes__cards__list__item__simbol{
+    width: 50px;
+}
+
+
 @media (max-width: 768px){
     .hero{
     background-image: url(../../public/images/hero/hero__image__smartphone.png);
@@ -137,6 +221,7 @@
         width: 80%;
     }
 
+    /* Localização */
     .direction{
         display: block;
         text-align: center;
@@ -150,11 +235,20 @@
         box-shadow: 10px 10px 10px rgba(22, 242, 117, .2);
     }
 
+    /* Experiencias */
     .experience__list{
         display: block;
     }
     .experience__list__item{
         margin-bottom: 40px;
+    }
+
+    /* Aulas */
+    .classes__cards__list{
+    display: block;
+    }
+    .classes__cards__list__item{
+        margin:0 60px 40px;
     }
 }
 
@@ -167,6 +261,8 @@
     .container{
         width: 90%;
     }
+
+    /* Localizações */
     .direction{
         display: grid;
         grid-template-columns: 1fr fr;
@@ -179,12 +275,26 @@
         margin-right: 24px
     }
 
+    /* Experiencias */
     .experience__list{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .experience__list__item__image{
         max-width: 200px;
+    }
+
+    /* Aulas */
+    .classes__cards{
+        margin-top: 60px;
+    }
+    .classes__cards__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    }
+    .classes__cards__list__item{
+        margin:0 60px 40px;
     }
 }
 </style>
