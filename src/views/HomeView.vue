@@ -190,7 +190,7 @@
 .classes__cards__list__item{
     background-color: #0DA643;
     padding: 24px;
-    margin: 0 50px;
+    margin: 0 30px;
     border-radius: 8px;
     transition: .5s ease;
 }
@@ -200,6 +200,7 @@
 }
 .classes__cards__list__item__image{
     border-radius: 8px;
+    width: 200px;
 }
 .classes__cards__list__item__title{
     font-size: 1.17em;

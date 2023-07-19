@@ -15,13 +15,13 @@ import Footerbar from './components/Footerbar.vue';
                         <RouterLink to="/" class="navbar__links__item">Home</RouterLink>
                       </li>
                       <li>
-                        <RouterLink to="/about" class="navbar__links__item">Unidades</RouterLink>
+                        <RouterLink to="/unidades" class="navbar__links__item">Unidades</RouterLink>
                       </li>
                       <li>
-                        <RouterLink to="/about" class="navbar__links__item">Membros</RouterLink>
+                        <RouterLink to="/membros" class="navbar__links__item">Membros</RouterLink>
                       </li>
                       <li>
-                        <RouterLink to="/about" class="navbar__links__item__emphasis">SEJA HYPER</RouterLink>
+                        <RouterLink to="/sejaHYPER" class="navbar__links__item__emphasis">SEJA HYPER</RouterLink>
                       </li>
               </nav>
         </div>

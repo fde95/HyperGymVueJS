@@ -1,5 +1,5 @@
 <template>
-  <h1>TESTE DO TESTE</h1>
+    <h1>TESTE DE MEMBROS</h1>
 </template>
 
 <style scoped>
