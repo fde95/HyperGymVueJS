@@ -64,7 +64,7 @@
             </p>
 
             <!-- Copy -->
-            <p class="copy">2023 &copy; Criado e Desenvolvido por <a class="copy__link" href="https://www.linkedin.com/in/fde95/">Felipe Espinoza</a></p>
+            <p class="copy">2023 &copy; Criado e Desenvolvido por <a class="copy__link" href="https://www.linkedin.com/in/fde95/" target="_blank">Felipe Espinoza</a></p>
         </div>
     </footer>
 </template>
