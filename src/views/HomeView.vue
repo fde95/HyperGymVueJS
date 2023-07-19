@@ -59,22 +59,22 @@
                 <div class="classes__cards">
                     <ul class="classes__cards__list">
                         <li class="classes__cards__list__item">
-                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/300x300" alt="">
                             <h3 class="classes__cards__list__item__title">Dança</h3>
                             <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__dance.svg" alt="">
                         </li>
                         <li class="classes__cards__list__item">
-                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/300x300" alt="">
                             <h3 class="classes__cards__list__item__title">Musculação</h3>
                             <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__ gym.svg" alt="">
                         </li>
                         <li class="classes__cards__list__item">
-                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/300x300" alt="">
                             <h3 class="classes__cards__list__item__title">Natação</h3>
                             <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__ swimming.svg" alt="">
                         </li>
                         <li class="classes__cards__list__item">
-                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/200x200" alt="">
+                            <img class="classes__cards__list__item__image" src="http://via.placeholder.com/300x300" alt="">
                             <h3 class="classes__cards__list__item__title">Combate</h3>
                             <img class="classes__cards__list__item__simbol" src="../../public/images/sgv/classes__combat.svg" alt="">
                         </li>
@@ -190,7 +190,7 @@
 .classes__cards__list__item{
     background-color: #0DA643;
     padding: 24px;
-    margin: 0 24px;
+    margin: 0 50px;
     border-radius: 8px;
     transition: .5s ease;
 }
@@ -250,6 +250,9 @@
     .classes__cards__list__item{
         margin:0 60px 40px;
     }
+    .classes__cards__list__item__image{
+        width: 200px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1022px){
@@ -295,6 +298,9 @@
     }
     .classes__cards__list__item{
         margin:0 60px 40px;
+    }
+    .classes__cards__list__item__image{
+        width: 200px;
     }
 }
 </style>
