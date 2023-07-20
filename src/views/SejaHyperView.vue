@@ -1,8 +1,12 @@
 <template>
     <main id="SejaMembro">
-        <img class="SejaMembro__banner" src="http://via.placeholder.com/1920x250" alt="">
+
+        <!-- Banner -->
+        <img class="SejaMembro__banner" src="../../public/images/banner__SejaHyper/banner__SejaHyper__desktop.png" alt="Imagem de halteres verdes no chão de uma academia">
         <div class="container">
-            <section class="member">
+
+        <!-- Diferenciais -->
+            <section id="Member" class="member">
                 <h1 class="member__title">
                     De o primeiro passo para <span class="member__title__emphasis">uma vida mais saudável</span>.
                 </h1>
@@ -10,7 +14,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores animi sed illo enim, aspernatur blanditiis voluptates eligendi, ipsa aperiam ea aliquid voluptate exercitationem ipsam nisi, neque expedita omnis sequi!
                 </p>
                 <div class="member__card">
-                    <img class="member__card__brand" src="../../public/images/navbar__logo.png" alt="">
+                    <img class="member__card__brand" src="../../public/images/navbar__logo.png" alt="Hyper Logo">
                     <ul class="member__card__list">
                         <li class="member__card__list__item">
                             <h3 class="member__card__list__item__title">
@@ -34,6 +38,76 @@
                 </div>
             </section>
         </div>
+
+        <!-- Formulário -->
+            <section id="MemberForm">
+                <div class="container">
+                    <h2 class="member__title--form">Seja <span class="member__title--form__emphasis">Hyper</span>!</h2>
+                    <form class="member__form">
+                        <label class="member__form__label" for="name">Nome Completo</label>
+                        <input type="text" id="name">
+                        <label class="member__form__label" for="cpf">CPF</label>
+                        <input type="text" id="cpf">
+                        <label class="member__form__label" for="birthday">Data de Nasc.</label>
+                        <input type="date" id="birthday">
+                        <label class="member__form__label" for="cel">Celular</label>
+                        <input type="text" id="cel">
+                        <label class="member__form__label" for="email">E-mail</label>
+                        <input type="email" id="email">
+
+
+
+
+
+                        <label class="member__form__label" for="address">Endereço</label>
+                        <input type="dattexte" id="address">
+
+                        <label class="member__form__label" for="number">Nº</label>
+                        <input type="text" id="number">
+
+                        <label class="member__form__label" for="neighborhood">Bairro</label>
+                        <input type="text" id="neighborhood">
+
+                        <label class="member__form__label" for="state">Estado</label>
+                        <select name="state" id="state">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                        <hr>
+                        <label class="member__form__label" for="password">Senha de acesso</label>
+                        <input type="password" name="password" id="password">
+                        <label class="member__form__label" for="passwordConfirm">Confirmação de senha</label>
+                        <input type="password" name="passwordConfirm" id="passwordConfirm">
+
+                        <button>Cadastrar</button>
+                    </form>
+                </div>
+            </section>
     </main>
 </template>
 
@@ -48,9 +122,13 @@
     margin: 0 auto;
     color: #FFF;
 }
+
+/* Banner */
 .SejaMembro__banner{
     max-width: 100%;
 }
+
+/* Diferenciais */
 .member__title{
     font-weight: normal;
     font-size: 2em;
@@ -64,9 +142,9 @@
 }
 .member__description{
     font-size: 1.3em;
+    text-align: justify;
     margin-bottom: 80px;
 }
-
 .member__card{
     padding: 50px;
     background-color: #0D0D0D;
@@ -86,6 +164,74 @@
 }
 .member__card__brand{
     width: 100px;
+}
+.member__card__list__item__description{
+    text-align: justify;
+}
+
+
+/* Formulário */
+#MemberForm{
+    background-color: #CCCCCC;
+}
+.member__title--form{
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+}
+.member__title--form__emphasis{
+    font-weight: bold;
+}
+.member__form{
+    background-color:#0DA643;
+    padding: 50px;
+    border-radius: 20px;
+    opacity: 80%;
+    display: grid;
+}
+.member__form__label{
+    margin: 24px 0 8px;
+}
+
+
+@media (max-width: 768px){
+    .container{
+        width: 80%;
+        padding-top: 20px;
+    }
+    .member__title{
+        font-size: 1.5em;
+    }
+    .member__description{
+        font-size: 1em;
+    }
+    .member__card{
+        display: block;
+        padding: 49px 25px 25px;
+    }
+    .member__card__brand{
+        display: none;
+    }
+    .member__card__list__item__title{
+        font-size: 24px;
+        text-align: center;
+    }
+    .member__card__list__item__description{
+        text-align: justify;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:1022px){
+    .container{
+        width: 90%;
+    }
+    .member__card__brand{
+        margin-right: 40px;
+    }
 }
 
 </style>

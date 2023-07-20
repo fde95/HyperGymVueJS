@@ -2,8 +2,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__brand">
-                <a class="footer__brand__link" href="https://www.linkedin.com/in/fde95/" target="_blank">
-                    <img class="footer__brand__link__logo" src="../../public/images/navbar__logo.png" alt="">
+                <a class="footer__brand__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
+                    <img class="footer__brand__link__logo" src="../../public/images/navbar__logo.png" alt="Hyper Logo">
                 </a>
             </div>
 
@@ -25,27 +25,27 @@
 
             <!-- Redes Sociais -->
             <ul class="footer__social--midia">
-                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="Conheça o dev">
+                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
                     <li class="footer__social--midia__link__item">
                         <i class="bi bi-facebook"></i>
                     </li>
                 </a>
-                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="Conheça o dev">
+                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
                     <li class="footer__social--midia__link__item">
                         <i class="bi bi-instagram"></i>
                     </li>
                 </a>
-                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="Conheça o dev">
+                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
                     <li class="footer__social--midia__link__item">
                         <i class="bi bi-linkedin"></i>
                     </li>
                 </a>
-                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="Conheça o dev">
+                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
                     <li class="footer__social--midia__link__item">
                         <i class="bi bi-youtube"></i>
                     </li>
                 </a>
-                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="Conheça o dev">
+                <a class="footer__social--midia__link" href="https://www.linkedin.com/in/fde95/" target="_blank" alt="LinkedIn" title="Conheça o Dev">
                     <li class="footer__social--midia__link__item">
                         <i class="bi bi-spotify"></i>
                     </li>
