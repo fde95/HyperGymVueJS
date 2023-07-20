@@ -45,66 +45,22 @@
                     <h2 class="member__title--form">Seja <span class="member__title--form__emphasis">Hyper</span>!</h2>
                     <form class="member__form">
                         <label class="member__form__label" for="name">Nome Completo</label>
-                        <input type="text" id="name">
+                        <input class="member__form__input" type="text" id="name">
                         <label class="member__form__label" for="cpf">CPF</label>
-                        <input type="text" id="cpf">
+                        <input class="member__form__input" type="text" id="cpf">
                         <label class="member__form__label" for="birthday">Data de Nasc.</label>
-                        <input type="date" id="birthday">
+                        <input class="member__form__input" type="date" id="birthday">
                         <label class="member__form__label" for="cel">Celular</label>
-                        <input type="text" id="cel">
+                        <input class="member__form__input" type="text" id="cel">
                         <label class="member__form__label" for="email">E-mail</label>
-                        <input type="email" id="email">
+                        <input class="member__form__input" type="email" id="email">
 
-
-
-
-
-                        <label class="member__form__label" for="address">Endereço</label>
-                        <input type="dattexte" id="address">
-
-                        <label class="member__form__label" for="number">Nº</label>
-                        <input type="text" id="number">
-
-                        <label class="member__form__label" for="neighborhood">Bairro</label>
-                        <input type="text" id="neighborhood">
-
-                        <label class="member__form__label" for="state">Estado</label>
-                        <select name="state" id="state">
-                            <option value="AC">Acre</option>
-                            <option value="AL">Alagoas</option>
-                            <option value="AP">Amapá</option>
-                            <option value="AM">Amazonas</option>
-                            <option value="BA">Bahia</option>
-                            <option value="CE">Ceará</option>
-                            <option value="DF">Distrito Federal</option>
-                            <option value="ES">Espírito Santo</option>
-                            <option value="GO">Goiás</option>
-                            <option value="MA">Maranhão</option>
-                            <option value="MT">Mato Grosso</option>
-                            <option value="MS">Mato Grosso do Sul</option>
-                            <option value="MG">Minas Gerais</option>
-                            <option value="PA">Pará</option>
-                            <option value="PB">Paraíba</option>
-                            <option value="PR">Paraná</option>
-                            <option value="PE">Pernambuco</option>
-                            <option value="PI">Piauí</option>
-                            <option value="RJ">Rio de Janeiro</option>
-                            <option value="RN">Rio Grande do Norte</option>
-                            <option value="RS">Rio Grande do Sul</option>
-                            <option value="RO">Rondônia</option>
-                            <option value="RR">Roraima</option>
-                            <option value="SC">Santa Catarina</option>
-                            <option value="SP">São Paulo</option>
-                            <option value="SE">Sergipe</option>
-                            <option value="TO">Tocantins</option>
-                        </select>
-                        <hr>
                         <label class="member__form__label" for="password">Senha de acesso</label>
-                        <input type="password" name="password" id="password">
+                        <input class="member__form__input" type="password" name="password" id="password">
                         <label class="member__form__label" for="passwordConfirm">Confirmação de senha</label>
-                        <input type="password" name="passwordConfirm" id="passwordConfirm">
+                        <input class="member__form__input" type="password" name="passwordConfirm" id="passwordConfirm">
 
-                        <button>Cadastrar</button>
+                        <button class="member__form__button">Cadastrar</button>
                     </form>
                 </div>
             </section>
@@ -186,7 +142,7 @@
     font-weight: bold;
 }
 .member__form{
-    background-color:#0DA643;
+    background-color:#0da643;
     padding: 50px;
     border-radius: 20px;
     opacity: 80%;
@@ -194,6 +150,26 @@
 }
 .member__form__label{
     margin: 24px 0 8px;
+}
+.member__form__input{
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+}
+.member__form__button{
+    cursor: pointer;
+    margin-top: 24px;
+    padding: 16px;
+    border: none;
+    border-radius:0 0 8px 8px;
+    background-color: #0D0D0D;
+    color: #CCCCCC;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.member__form__button:hover{
+    background-color: #2c2c2c;
 }
 
 
