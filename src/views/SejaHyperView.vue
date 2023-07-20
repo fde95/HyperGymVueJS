@@ -128,14 +128,18 @@
 
 /* Formulário */
 #MemberForm{
-    background-color: #CCCCCC;
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../../public/images/banner__SejaHyper/banner__form__desktop.png);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
 }
 .member__title--form{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: normal;
     text-align: center;
     margin-bottom: 24px;
-    color: #0D0D0D;
     text-transform: uppercase;
 }
 .member__title--form__emphasis{
@@ -145,7 +149,6 @@
     background-color:#0da643;
     padding: 50px;
     border-radius: 20px;
-    opacity: 80%;
     display: grid;
 }
 .member__form__label{
